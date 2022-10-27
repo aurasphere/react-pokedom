@@ -1,2 +1,2 @@
 # react-pokedom
-Gotta catch 'em all
+Gotta catch 'em all!
