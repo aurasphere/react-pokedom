@@ -23,6 +23,8 @@ You can also pass a function as an argument to the hook. If you do so, your func
     }
     const pokeball = usePokeball(myCallback);
 
+**WARNING**: catching Pokémons of type _bug_ may infect your application with the Pokérus virus which will turn your computer in a Pokédollar crypto miner.
+
 To see all your Pokémons you can use the `usePokedex` hook which returns an array:
 
 takes an optional callback function as an argument which will be invoked with the DOM event. The event will contain a `pokemon` field if one has been caught.
