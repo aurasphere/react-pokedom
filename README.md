@@ -1,6 +1,9 @@
-# React Pokedom
+[![Github Workflow](https://img.shields.io/github/workflow/status/aurasphere/react-pokedom/CI)](https://github.com/aurasphere/react-pokedom/actions/workflows/node.js.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/819c60dd2987fa97ba95/maintainability)](https://codeclimate.com/github/aurasphere/react-pokedom/maintainability)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-orange.svg)](https://www.paypal.com/donate/?cmd=_donations&business=8UK2BZP2K8NSS)
+[![Telegram](https://img.shields.io/badge/-telegram-a?color=white&logo=telegram)](https://t.me/+Wy1DPTLyFGg0OWE0)
 
-Gotta catch 'em all!
+# React Pokedom
 
 A React library for catching Pokémon alongside your DOM events.
 
