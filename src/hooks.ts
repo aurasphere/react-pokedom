@@ -3,13 +3,15 @@ import pokedomContext from "./context";
 
 const pokemons = require("json-pokemon");
 
-export function usePokedex() {
-  const pokedex = useContext(pokedomContext);
+export function usePokedex(): Pokedex {
+  const [pokedex] = useContext(pokedomContext);
   return JSON.parse(JSON.stringify(pokedex));
 }
 
-export function usePokeball(callback?: (e: PokedomEvent) => void) {
-  const pokedex = useContext(pokedomContext);
+export function usePokeball(
+  callback?: (e: PokedomEvent) => void
+): (event: Event) => void {
+  const [pokedex, setPokedex] = useContext(pokedomContext);
   return (event?: Event) => {
     const pokedomEvent = (event ?? {}) as PokedomEvent;
     if (Math.random() * 10 < 4) {
@@ -26,6 +28,7 @@ export function usePokeball(callback?: (e: PokedomEvent) => void) {
         newPokedexEntry.owned = 1;
         pokedex.push(newPokedexEntry);
         pokedex.sort((a, b) => a.id - b.id);
+        setPokedex([...pokedex]);
       }
     }
     callback?.(pokedomEvent);
