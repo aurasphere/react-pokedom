@@ -5,7 +5,7 @@
 
 # React Pokedom
 
-A React library for catching Pokémon alongside your DOM events.
+A React library for catching Pokémon alongside your DOM events. There are more than 800 Pokémon hiding in your DOM. Can you catch them all?
 
 ## Quickstart
 
