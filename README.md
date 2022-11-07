@@ -5,9 +5,11 @@
 
 # React Pokedom
 
-A React library for catching Pokémon alongside your DOM events.
+A React library for catching Pokémon alongside your DOM events. There are more than 800 Pokémon hiding in your DOM. Can you catch them all?
 
 ## Quickstart
+
+<sub><sup>**DISCLAMER**: catching Pokémons of type _bug_ may infect your application with the Pokérus virus which will turn your computer into a Pokédollar crypto miner. We decline any responsibility.</sub></sup>
 
 To catch a Pokémon you use the `usePokeball` hook. This hook returns a function that you can pass as a DOM event callback:
 
@@ -25,8 +27,6 @@ You can also pass a function as an argument to the hook. If you do so, your func
         }
     }
     const pokeball = usePokeball(myCallback);
-
-**WARNING**: catching Pokémons of type _bug_ may infect your application with the Pokérus virus which will turn your computer in a Pokédollar crypto miner.
 
 To see all your Pokémons you can use the `usePokedex` hook which returns an array:
 
