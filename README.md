@@ -3,7 +3,13 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-orange.svg)](https://www.paypal.com/donate/?cmd=_donations&business=8UK2BZP2K8NSS)
 [![Telegram](https://img.shields.io/badge/-telegram-a?color=white&logo=telegram)](https://t.me/+Wy1DPTLyFGg0OWE0)
 
+
+
+<img align="left" src="/assets/react-pokedom-logo.png" alt="react-pokedom-logo" height="100" />
+
 # React Pokedom
+<sup>Gotta catch 'em all!</sup>
+
 
 A React library for catching Pokémon alongside your DOM events. There are more than 800 Pokémon hiding in your DOM. Can you catch them all?
 
