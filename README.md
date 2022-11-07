@@ -62,3 +62,17 @@ To view the Pokémon you caught so far, you can use the `usePokedex` hook which 
 ### Types
 
 See https://github.com/aurasphere/react-pokedom/blob/main/src/types.ts.
+
+## Project status
+This project is considered completed and won't be developed further.
+
+## Contacts
+You can contact me using my account e-mail or by joining the Telegram group (link on the badge on top of this document). I'll try to reply ASAP.
+
+## Acknowledgments
+Thanks to [Federica Lisci](https://www.linkedin.com/in/federica-lisci-377220162/) for the logo!
+
+## License
+The project is released under the MIT license, which lets you reuse the code for any purpose you want (even commercial) with the only requirement being copying this project license on your project.
+
+<sub>Copyright (c) 2022 Donato Rimenti</sub>
