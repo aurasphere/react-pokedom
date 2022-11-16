@@ -13,6 +13,14 @@
 
 A React library for catching Pokémon alongside your DOM events. There are more than 800 Pokémon hiding in your DOM. Can you catch them all?
 
+## Installation
+
+    npm install @aurasphere/react-pokedom
+    
+or
+
+    yarn add @aurasphere/react-pokedom
+
 ## Quickstart
 
 <sub><sup>**DISCLAMER**: catching Pokémons of type _bug_ may infect your application with the Pokérus virus which will turn your computer into a Pokédollar crypto miner. We decline any responsibility.</sub></sup>
